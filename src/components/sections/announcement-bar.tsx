@@ -20,8 +20,8 @@ const firstNames = [
 const lastInitials = ["B.", "D.", "F.", "J.", "L.", "M.", "P.", "Q.", "S.", "V.", "W.", "X.", "Z."];
 
 const actions = [
-  "just claimed a $750 Costco card!",
-  "just claimed a $750 Costco voucher!",
+  "just claimed a $750 Sam's Club card!",
+  "just claimed a $750 Sam's Club voucher!",
   "just unlocked reward eligibility!",
   "just completed the review survey!",
   "just verified eligibility!"
