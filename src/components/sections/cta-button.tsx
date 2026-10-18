@@ -6,7 +6,7 @@ import { Star } from 'lucide-react';
 /**
  * CTAButton Component (Costco Edition)
  * 
- * High-converting primary CTA button styled with solid Costco Blue tones (#005dab), 
+ * High-converting primary CTA button styled with solid Costco Blue tones (#0a6cff), 
  * vibrant gold star accents, continuous shine animation, and a thumb-friendly layout.
  */
 export default function CTAButton() {
@@ -26,7 +26,7 @@ export default function CTAButton() {
         target="_blank"
         rel="noopener noreferrer"
         onClick={handleClick}
-        className="group relative w-full h-[52px] sm:h-[58px] bg-[#005dab] hover:bg-[#004a88] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_10px_25px_rgba(0,93,171,0.4)] hover:shadow-[0_12px_30px_rgba(0,93,171,0.5)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline border border-white/20 animate-pulse"
+        className="group relative w-full h-[52px] sm:h-[58px] bg-[#0a6cff] hover:bg-[#095fe6] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_10px_25px_rgba(10,108,255,0.4)] hover:shadow-[0_12px_30px_rgba(10,108,255,0.5)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline border border-white/20 animate-pulse"
       >
         {/* Continuous Shine Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/25 to-transparent -left-full group-hover:animate-shine pointer-events-none" />
@@ -49,7 +49,7 @@ export default function CTAButton() {
       </a>
 
       {/* Ambient Floor Glow */}
-      <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-4/5 h-6 bg-[#005dab]/20 blur-xl -z-10 rounded-full pointer-events-none" />
+      <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-4/5 h-6 bg-[#0a6cff]/20 blur-xl -z-10 rounded-full pointer-events-none" />
     </div>
   );
 }
